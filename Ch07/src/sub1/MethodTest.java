@@ -62,20 +62,23 @@ public class MethodTest {
 		return z;
 	}
 		
-	//sub 메서드 정의
-	public static int sum(int a, int b) {
+	// sub 메서드 정의
+	public static int sub(int a, int b) {
 		int result = a - b;
 		return result;
 	}
-		
-	//sum 메서드 호출
+	
+	// sum 메서드 정의
 	public static int sum(int start, int end) {
-		
+	
 		int sum = 0;
 		
-		for(int k=start; k<=end; k++) {
-			sum += k;
+		for(int k=start ; k<=end ; k++) {
+			sum += k;			
 		}
-		return sum;
-	}	
+		
+		return sum;		
+	}
+	
 }
+
