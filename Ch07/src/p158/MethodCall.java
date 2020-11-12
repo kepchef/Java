@@ -12,13 +12,15 @@ public class MethodCall {
 }
 class Method{
 	static void printName() {
-		System.out.println("printName()角青";
+		System.out.println("printName()角青");
 	}
 	void printEmail() {
 		System.out.println("printEmail()角青");
 		
-		printId(){
-			System.out.println("printId()角青");
+		printId();
+	}
+		
+		void printId() {
+			System.out.println("printId() 角青");
 		}
 	}
-}
