@@ -8,7 +8,7 @@ public class Test1 {
 		
 		for(row = 1; row < 10; row++) {
 			for(col = 0; col <= row; col++) {
-				System.out.println();
+				System.out.println(str[col]);
 			}
 			System.out.println("\n");
 		}
