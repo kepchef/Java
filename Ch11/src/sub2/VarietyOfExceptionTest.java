@@ -34,18 +34,5 @@ public class VarietyOfExceptionTest {
 		}
 		}
 		
-		// Casting 에러
-		try {
-			
-		Animal a1 = new Eagle();//업캐스팅(다형성)
-		Animal a2 = new Shark();//업캐스팅(다형성)
-		
-		Eagle eagle = (Eagle) a2;//다운캐스팅
-		
-		catch (ClassCastException e) {
-		e.printStackTrace();
-		}
-		
-		System.out.println("프로그램 종료...");
-	}
+
 }
